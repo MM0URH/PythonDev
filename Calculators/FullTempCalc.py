@@ -26,14 +26,14 @@ while ans:
         inpt = float(input('What is the Temperature in C: '))
         workout = float(((inpt*9)/5)+32)
         outpt = round(workout,1)
-        print("Temp in C is ", outpt , "Degrees")
+        print(inpt,"C is ", outpt , "Degrees F")
         print("Last Updated at:", nowTime, "on",nowDate)
         ans=True
     elif ans =="2":
         inpt = float(input('What is the Temperature in F: '))
         workout = float(((inpt-32)*5)/9)
         outpt = round(workout,1)
-        print("Temp in C is ", outpt , "Degrees")
+        print(inpt, "in F is ", outpt , "Degrees C")
         print("Last Updated at:", nowTime, "on",nowDate)
         ans=True
     elif ans=="3":
