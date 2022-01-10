@@ -56,5 +56,5 @@ while ans:
     elif ans=="0":
         print("\n Goodbye")
         raise SystemExit
-    elif ans !="":
+    else:
         print("\n Not Valid Choice Try again") 
